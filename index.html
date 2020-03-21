@@ -14,24 +14,32 @@
     <main>
         <h1>My top five locations on earth</h1>
         <ul>
-            <li>
-                <a href="/locations/location1.html">Location 1</a>
+            <li class="peru">
+                <a href="./locations/peru">Machu Pichu</a>
             </li>
-            <li>
-                <a href="/locations/location2.html">Location 2</a>
+            <li class="france">
+                <a href="./locations/france.html">Mont blanc</a>
             </li>
-            <li>
-                <a href="/locations/location3.html">Location 3</a>
+            <li class="italy">
+                <a href="./locations/italy">Sardinia</a>
             </li>
-            <li>
-                <a href="/locations/location4.html">Location 4</a>
+            <li class="india">
+                <a href="./locations/india">The Tag Mahal</a>
             </li>
-            <li>
-                <a href="/locations/location5.html">Location 5</a>
+            <li class="vietnam">
+                <a href="./locations/vietnam">Ha long bay</a>
             </li>
         </ul>
         <section>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/World_map_%28Miller_cylindrical_projection%2C_blank%29.svg" alt="">
+            <img src="./map.png" usemap="#image-map">
+
+            <map name="image-map">
+                <area target="" alt="Machu pichu" title="Machu pichu" href="./locations/peru" coords="177,226,203,259" shape="rect">
+                <area target="" alt="Mont blanc" title="Mont blanc" href="./locations/france.html" coords="311,120,336,139" shape="rect">
+                <area target="" alt="Sardinia" title="Sardinia" href="./locations/italy" coords="356,152,335,129" shape="rect">
+                <area target="" alt="India" title="India" href="./locations/india" coords="442,152,493,209" shape="rect">
+                <area target="" alt="Ha long bay" title="Ha long bay" href="./locations/vietnam" coords="503,180,521,207" shape="rect">
+            </map>
         </section>
     </main>
 </body>

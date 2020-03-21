@@ -38,8 +38,28 @@ main ul li:hover {
     background: #333333;
 }
 
+main ul li.peru:hover {
+    background: #0070b1;
+}
+
+main ul li.france:hover {
+    background: #ce2e30;
+}
+
+main ul li.italy:hover {
+    background: #016d28;
+}
+
+main ul li.india:hover {
+    background: #c1812a;
+}
+
+main ul li.vietnam:hover {
+    background: #f88e5a;
+}
+
 main ul li a {
     color: inherit;
     text-decoration: none;
-    padding: 5px 150px;
+    padding: 5px 120px;
 }
